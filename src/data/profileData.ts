@@ -17,5 +17,5 @@ export const profileData: Profile = {
   email: import.meta.env.PUBLIC_EMAIL || "",
   image: miFoto.src,
   catchphrase: "Conectando el hardware embebido con el poder de los LLMs.",
-  description: "Enfocado en la arquitectura de soluciones tecnológicas y el despliegue de modelos de IA en el edge. Priorizo la calidad técnica, la integración eficiente de sistemas y el desarrollo en entornos estructurados."
+  description: "Apasionado por diseñar programas que brinden soluciones"
 };
