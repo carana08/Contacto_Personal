@@ -21,7 +21,7 @@ jobs:
       - name: Install, build, and upload your site
         uses: withastro/action@v3
         with:
-          # Le indicamos a GitHub que debe usar pnpm
+          node-version: 22 # <-- AGREGA ESTA LÍNEA
           package-manager: pnpm@latest
 
   deploy:
