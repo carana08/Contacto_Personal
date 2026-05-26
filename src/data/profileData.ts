@@ -1,3 +1,5 @@
+import miFoto from '../images/foto.jpg';
+
 export interface Profile {
   name: string;
   role: string;
@@ -13,7 +15,7 @@ export const profileData: Profile = {
   role: "Pasante Técnico en Easymetering | Ciencias de la Computación, ESPOL",
   phone: import.meta.env.PUBLIC_PHONE || "", 
   email: import.meta.env.PUBLIC_EMAIL || "",
-  image: "src/images/foto.jpg",
+  image: miFoto.src,
   catchphrase: "Conectando el hardware embebido con el poder de los LLMs.",
   description: "Enfocado en la arquitectura de soluciones tecnológicas y el despliegue de modelos de IA en el edge. Priorizo la calidad técnica, la integración eficiente de sistemas y el desarrollo en entornos estructurados."
 };
