@@ -11,7 +11,7 @@ export interface Profile {
 }
 
 export const profileData: Profile = {
-  name: "César Arana",
+  name: "César Alejandro Arana Castro",
   role: "Estudiante de Ciencias de la Computación, ESPOL",
   phone: import.meta.env.PUBLIC_PHONE || "", 
   email: import.meta.env.PUBLIC_EMAIL || "",
