@@ -20,6 +20,9 @@ jobs:
       
       - name: Install, build, and upload your site
         uses: withastro/action@v3
+        env:
+          PUBLIC_PHONE: ${{ secrets.PUBLIC_PHONE }}
+          PUBLIC_EMAIL: ${{ secrets.PUBLIC_EMAIL }}
         with:
           node-version: 22
           package-manager: pnpm@latest
