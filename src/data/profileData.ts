@@ -12,7 +12,7 @@ export interface Profile {
 
 export const profileData: Profile = {
   name: "César Arana",
-  role: "Pasante Técnico en Easymetering | Ciencias de la Computación, ESPOL",
+  role: "Estudiante de Ciencias de la Computación, ESPOL",
   phone: import.meta.env.PUBLIC_PHONE || "", 
   email: import.meta.env.PUBLIC_EMAIL || "",
   image: miFoto.src,
